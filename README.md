@@ -6,8 +6,8 @@ This Python script allows you to search for songs on YouTube or Spotify, select 
 
 1. **Clone this repository:**
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/OTAKUWeBer/AuraPlay
+   cd AuraPlay
    ```
 
 2. **Install required dependencies:**
