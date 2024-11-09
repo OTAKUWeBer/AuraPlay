@@ -29,4 +29,7 @@ def app():
     choose_platform()
 
 if __name__ == "__main__":
-    app()
+    try:
+        app()
+    except KeyboardInterrupt:
+        print("\nProgram exited.")

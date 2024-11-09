@@ -103,4 +103,7 @@ def spotify():
     search_song_and_get_link(sp)  # Start the search and play process
 
 if __name__ == "__main__":
-    spotify()
+    try:
+        spotify()
+    except KeyboardInterrupt:
+        print("\nProgram exited.")

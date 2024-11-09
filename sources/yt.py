@@ -62,4 +62,7 @@ def yt():
             break
 
 if __name__ == "__main__":
-    yt()
+    try:
+        yt()
+    except KeyboardInterrupt:
+        print("\nProgram exited.")
