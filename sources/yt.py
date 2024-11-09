@@ -25,6 +25,7 @@ def search_song_and_get_link():
         song_name = output[0] if output[0] else "unknown"
         artist_name = output[1] if output[1] else "unknown"
         download_url = output[3]  # The download URL is the 4th line in the output
+        print(f"YouTube Search successful")
         return download_url, song_name, artist_name
     else:
         print("Error: Unexpected output format from yt-dlp.")
