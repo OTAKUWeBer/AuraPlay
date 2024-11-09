@@ -3,6 +3,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import subprocess
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Set your Spotify client ID and client secret as environment variables for security.
 SPOTIPY_CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
