@@ -40,7 +40,7 @@ def search_song_and_get_link(sp):
                 song_id = song_url.split("/")[-1]
                 song_name = track['name']
                 artist_name = track['artists'][0]['name']
-                print(f"Spotify search successful for '{song_name}' by {artist_name}")
+                print(f"Spotify search successful")
                 get_gid(song_id, song_name, artist_name)
             else:
                 print("Song not found.")
