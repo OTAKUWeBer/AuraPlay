@@ -26,6 +26,7 @@ def choose_platform():
         choose_platform()
 
 def app():
+    clear_screen()
     choose_platform()
 
 if __name__ == "__main__":
